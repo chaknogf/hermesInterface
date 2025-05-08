@@ -1,0 +1,54 @@
+:host {
+  display: block;
+  padding: 1rem;
+  background-color: #f4f6fc; /* fondo suave, no oscuro */
+  color: #1f2d3d; /* texto elegante y legible */
+  min-height: 100vh;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Barra de búsqueda refinada */
+.search-bar {
+  padding: 0.75rem 1rem;
+  border: 1px solid #cfd8dc;
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+  color: #0d47a1;
+  font-size: 1rem;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #42a5f5;
+  box-shadow: 0 0 0 3px rgba(66, 165, 245, 0.2);
+}
+
+.search-bar::placeholder {
+  color: #90a4ae;
+}
+
+/* Tarjetas con azul moderno */
+.card {
+  background-color: #e3f2fd;
+  border-left: 5px solid #2196f3;
+  color: #0d47a1;
+  padding: 1rem 1.25rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(33, 150, 243, 0.2);
+}

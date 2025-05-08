@@ -1,0 +1,45 @@
+<div class="contenedor">
+  <form (ngSubmit)="buscar()" #buscadorForm="ngForm">
+    <input
+      class="entrada"
+      type="text"
+      placeholder="Nombre del paciente"
+      name="nombre"
+      [(ngModel)]="nombre"
+    />
+    <input
+      class="entrada"
+      type="text"
+      placeholder="CUI (13 dígitos)"
+      maxlength="13"
+      name="cui"
+      [(ngModel)]="cui"
+    />
+    <button type="submit" class="boton">Buscar</button>
+  </form>
+
+  <!-- Loader -->
+  <div *ngIf="cargando" class="loader">
+    <div class="loading-text">
+      🔎 Buscando en las fuentes externas
+      <span class="dot">.</span><span class="dot">.</span><span class="dot">.</span>
+    </div>
+    <div class="loading-bar-background">
+      <div class="loading-bar">
+        <div class="white-bars-container">
+          <div class="white-bar" *ngFor="let bar of [].constructor(10)"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resultados -->
+  <div *ngFor="let item of resultados" class="card-chat">
+    <div class="fuente">🧩 Fuente: {{ item.nodo | nodos }}</div>
+    <div class="paciente">👤 {{ item.paciente.nombre }} ({{ item.paciente.cui }})</div>
+    <div *ngFor="let consulta of item.consultas" class="consulta">
+      🗓️ {{ consulta.fecha }} - {{ consulta.Tipo_consulta }}
+      <div class="diagnostico">🩺 {{ consulta.Diagnostico }}</div>
+    </div>
+  </div>
+</div>

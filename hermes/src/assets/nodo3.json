@@ -1,0 +1,89 @@
+[
+  {
+    "cui": "4455667788992",
+    "nombre": "Ricardo Paz",
+    "edad": 68,
+    "consultas": [
+      {
+        "fecha": "2025-01-15",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Seguimiento de EPOC"
+      },
+      {
+        "fecha": "2025-04-01",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Revisión pulmonar"
+      }
+    ]
+  },
+  {
+    "cui": "8899001122334",
+    "nombre": "Andrea León",
+    "edad": 12,
+    "consultas": [
+      {
+        "fecha": "2025-02-20",
+        "Tipo_consulta": "EMERGENCIA",
+        "Diagnostico": "Reacción alérgica severa"
+      },
+      {
+        "fecha": "2025-02-21",
+        "Tipo_consulta": "HOSPITALIZACION",
+        "Diagnostico": "Observación por alergia"
+      }
+    ]
+  },
+  {
+    "cui": "1122334455668",
+    "nombre": "Daniel Flores",
+    "edad": 41,
+    "consultas": [
+      {
+        "fecha": "2025-03-10",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Dolor lumbar crónico"
+      }
+    ]
+  },
+  {
+    "cui": "5566778899002",
+    "nombre": "Valeria Méndez",
+    "edad": 30,
+    "consultas": [
+      {
+        "fecha": "2025-05-01",
+        "Tipo_consulta": "EMERGENCIA",
+        "Diagnostico": "Quemadura de segundo grado"
+      },
+      {
+        "fecha": "2025-05-02",
+        "Tipo_consulta": "HOSPITALIZACION",
+        "Diagnostico": "Tratamiento de quemadura"
+      }
+    ]
+  },
+  {
+    "cui": "7788990011224",
+    "nombre": "Gabriel Ruiz",
+    "edad": 75,
+    "consultas": [
+      {
+        "fecha": "2025-04-18",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control de presión arterial"
+      }
+    ]
+  },
+  {
+    "cui": "2233445566772",
+    "nombre": "Sergio León",
+    "edad": 35,
+    "consultas": [
+      {
+        "fecha": "2025-07-10",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Evaluación por dolor de espalda"
+      }
+    ]
+  }
+]
