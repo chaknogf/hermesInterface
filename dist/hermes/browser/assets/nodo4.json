@@ -1,0 +1,142 @@
+[
+  {
+    "cui": "1234567890124",
+    "nombre": "Luisa Morales",
+    "edad": 59,
+    "consultas": [
+      {
+        "fecha": "2025-06-01",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control de glucemia"
+      },
+      {
+        "fecha": "2025-08-10",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Ajuste de medicación para diabetes"
+      }
+    ]
+  },
+  {
+    "cui": "9876543210988",
+    "nombre": "Mateo Vargas",
+    "edad": 7,
+    "consultas": [
+      {
+        "fecha": "2025-07-15",
+        "Tipo_consulta": "EMERGENCIA",
+        "Diagnostico": "Traumatismo craneoencefálico leve"
+      },
+      {
+        "fecha": "2025-07-16",
+        "Tipo_consulta": "HOSPITALIZACION",
+        "Diagnostico": "Observación neurológica"
+      }
+    ]
+  },
+  {
+    "cui": "1122334455669",
+    "nombre": "Fernanda Soto",
+    "edad": 29,
+    "consultas": [
+      {
+        "fecha": "2025-05-22",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Evaluación por infertilidad"
+      }
+    ]
+  },
+  {
+    "cui": "5566778899003",
+    "nombre": "Andrés Castro",
+    "edad": 82,
+    "consultas": [
+      {
+        "fecha": "2025-09-01",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control de anticoagulación"
+      },
+      {
+        "fecha": "2025-09-15",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Revisión cardiovascular"
+      }
+    ]
+  },
+  {
+    "cui": "7788990011225",
+    "nombre": "Camila Paz",
+    "edad": 15,
+    "consultas": [
+      {
+        "fecha": "2025-08-05",
+        "Tipo_consulta": "EMERGENCIA",
+        "Diagnostico": "Intoxicación alimentaria"
+      },
+      {
+        "fecha": "2025-08-06",
+        "Tipo_consulta": "HOSPITALIZACION",
+        "Diagnostico": "Rehidratación intravenosa"
+      }
+    ]
+  },
+  {
+    "cui": "2233445566772",
+    "nombre": "Sergio León",
+    "edad": 35,
+    "consultas": [
+      {
+        "fecha": "2025-06-28",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Consulta por dermatitis"
+      }
+    ]
+  },
+  {
+    "cui": "6543210987125",
+    "nombre": "Valentina Ruiz",
+    "edad": 48,
+    "consultas": [
+      {
+        "fecha": "2025-07-20",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Mamografía de control"
+      }
+    ]
+  },
+  {
+    "cui": "3344556677890",
+    "nombre": "Diego Flores",
+    "edad": 22,
+    "consultas": [
+      {
+        "fecha": "2025-09-25",
+        "Tipo_consulta": "EMERGENCIA",
+        "Diagnostico": "Esguince de rodilla"
+      }
+    ]
+  },
+  {
+    "cui": "9900112233446",
+    "nombre": "Isabella Méndez",
+    "edad": 71,
+    "consultas": [
+      {
+        "fecha": "2025-05-10",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Seguimiento de insuficiencia cardíaca"
+      }
+    ]
+  },
+  {
+    "cui": "4455667788993",
+    "nombre": "Martín Vargas",
+    "edad": 10,
+    "consultas": [
+      {
+        "fecha": "2025-08-18",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control pediátrico"
+      }
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "cui": "28765439100406",
+    "nombre": "María López",
+    "edad": 32,
+    "consultas": [
+      {
+        "fecha": "2024-03-15",
+        "Tipo_consulta": "Control prenatal",
+        "Diagnostico": "Embarazo de 12 semanas",
+        "referido": true,
+        "referido_por": "Centro de Salud"
+      },
+      {
+        "fecha": "2024-04-20",
+        "Tipo_consulta": "Examen de rutina",
+        "Diagnostico": "Saludable",
+        "referido": false,
+        "referido_por": null
+      }
+    ]
+  },
+  {
+    "cui": "98765432100407",
+    "nombre": "Carlos Gómez",
+    "edad": 78,
+    "consultas": [
+      {
+        "fecha": "2024-02-10",
+        "Tipo_consulta": "Consulta de seguimiento",
+        "Diagnostico": "Hipertensión arterial controlada",
+        "referido": false,
+        "referido_por": null
+      },
+      {
+        "fecha": "2024-05-01",
+        "Tipo_consulta": "Chequeo general",
+        "Diagnostico": "Osteoartritis",
+        "referido": true,
+        "referido_por": "Centro de Salud"
+      }
+    ]
+  },
+  {
+    "cui": "22334455660408",
+    "nombre": "Juan Francisco Pajarito",
+    "edad": 35,
+    "consultas": [
+      {
+        "fecha": "2025-08-01",
+        "Tipo_consulta": "Hospitalización",
+        "Diagnostico": "Neumonia",
+        "referido": true,
+        "referido_por": "Centro de Salud"
+      }
+    ]
+  },
+  {
+    "cui": "11223344550405",
+    "nombre": "Ana Rodríguez",
+    "edad": 19,
+    "consultas": [
+      {
+        "fecha": "2024-04-25",
+        "Tipo_consulta": "Consulta de emergencia",
+        "Diagnostico": "Esguince de tobillo",
+        "referido": false,
+        "referido_por": null
+      }
+    ]
+  },
+  {
+    "cui": "5667788990406",
+    "nombre": "Pedro Martínez",
+    "edad": 45,
+    "consultas": [
+      {
+        "fecha": "2024-01-20",
+        "Tipo_consulta": "Consulta especializada",
+        "Diagnostico": "Migraña crónica",
+        "referido": true,
+        "referido_por": "Centro de Salud"
+      },
+      {
+        "fecha": "2024-03-05",
+        "Tipo_consulta": "Revisión",
+        "Diagnostico": "Mejoría de migraña",
+        "referido": false,
+        "referido_por": null
+      }
+    ]
+  }
+]
