@@ -1,88 +1,296 @@
 [
   {
-    "cui": "6543210987123",
-    "nombre": "Sofía Vargas",
-    "edad": 27,
+    "cui": "2996397030101",
+    "nombre": "YURI YASMIN GARCIA AGUILAR",
+    "sexo": "Femenino",
+    "edad": 42,
     "consultas": [
       {
-        "fecha": "2024-06-10",
+        "fecha": "2025-01-10",
         "Tipo_consulta": "COEX",
-        "Diagnostico": "Infección de garganta"
+        "Diagnostico": "Control de rutina"
       }
     ]
   },
   {
-    "cui": "3344556677889",
-    "nombre": "Luis Castro",
-    "edad": 62,
+    "cui": "1806535390501",
+    "nombre": "JOSE ARMANDO SAZO MALDONADO",
+    "sexo": "Masculino",
+    "edad": 68,
     "consultas": [
       {
-        "fecha": "2024-07-01",
+        "fecha": "2024-12-05",
         "Tipo_consulta": "EMERGENCIA",
-        "Diagnostico": "Fractura de cadera"
+        "Diagnostico": "Dolor torácico"
       },
       {
-        "fecha": "2024-07-02",
+        "fecha": "2024-12-06",
         "Tipo_consulta": "HOSPITALIZACION",
-        "Diagnostico": "Post-operatorio de cadera"
+        "Diagnostico": "Observación cardiovascular"
       }
     ]
   },
   {
-    "cui": "9900112233445",
-    "nombre": "Elena Ruiz",
+    "cui": "1602219270101",
+    "nombre": "ANA LUCIA OLIVA LETONA",
+    "sexo": "Femenino",
     "edad": 38,
     "consultas": [
       {
-        "fecha": "2024-05-20",
+        "fecha": "2025-03-15",
         "Tipo_consulta": "COEX",
-        "Diagnostico": "Control de asma"
+        "Diagnostico": "Consulta por alergia"
       },
       {
-        "fecha": "2024-08-15",
+        "fecha": "2025-04-01",
         "Tipo_consulta": "COEX",
-        "Diagnostico": "Revisión de rutina"
+        "Diagnostico": "Seguimiento de alergia"
       }
     ]
   },
   {
-    "cui": "7788990011223",
-    "nombre": "Javier Soto",
-    "edad": 51,
+    "cui": "1880166861201",
+    "nombre": "YALENA LILIANA CASTAÑON RODAS",
+    "sexo": "Femenino",
+    "edad": 56,
     "consultas": [
       {
-        "fecha": "2024-09-05",
+        "fecha": "2025-02-20",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control ginecológico"
+      }
+    ]
+  },
+  {
+    "cui": "2444787750101",
+    "nombre": "NANCY JOHANNA CHAVEZ CHEVES DE GONZALEZ",
+    "sexo": "Femenino",
+    "edad": 49,
+    "consultas": [
+      {
+        "fecha": "2024-11-10",
         "Tipo_consulta": "EMERGENCIA",
-        "Diagnostico": "Ataque de apendicitis"
+        "Diagnostico": "Migraña severa"
+      }
+    ]
+  },
+  {
+    "cui": "2601171370101",
+    "nombre": "ANA LORENA CALDERON MONTERROSO",
+    "sexo": "Femenino",
+    "edad": 60,
+    "consultas": [
+      {
+        "fecha": "2025-04-25",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control de hipertensión"
       },
       {
-        "fecha": "2024-09-06",
+        "fecha": "2025-05-05",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Ajuste de medicación para hipertensión"
+      }
+    ]
+  },
+  {
+    "cui": "2336852860101",
+    "nombre": "JORGE AMADO MELGAR GARCIA",
+    "sexo": "Masculino",
+    "edad": 31,
+    "consultas": [
+      {
+        "fecha": "2025-03-01",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Consulta general"
+      }
+    ]
+  },
+  {
+    "cui": "1879264762001",
+    "nombre": "ANTONI ELIUD DE JESUS REYES GONZALEZ",
+    "sexo": "Masculino",
+    "edad": 26,
+    "consultas": [
+      {
+        "fecha": "2025-05-01",
+        "Tipo_consulta": "EMERGENCIA",
+        "Diagnostico": "Fractura de brazo"
+      },
+      {
+        "fecha": "2025-05-02",
         "Tipo_consulta": "HOSPITALIZACION",
-        "Diagnostico": "Recuperación post-apendicectomía"
+        "Diagnostico": "Inmovilización de fractura"
       }
     ]
   },
   {
-    "cui": "2233445566771",
-    "nombre": "Isabel Vargas",
-    "edad": 23,
+    "cui": "1879264762002",
+    "nombre": "GABRIELA IZABEL PARADA AQUIL",
+    "sexo": "Femenino",
+    "edad": 6,
     "consultas": [
       {
-        "fecha": "2024-07-28",
+        "fecha": "2024-12-15",
         "Tipo_consulta": "COEX",
-        "Diagnostico": "Consulta por resfriado común"
+        "Diagnostico": "Retardo de crecimiento"
+      },
+      {
+        "fecha": "2025-01-01",
+        "Tipo_consulta": "EMERGENCIA",
+        "Diagnostico": "Intoxicación alimentaria"
       }
     ]
   },
   {
-    "cui": "2233445566772",
-    "nombre": "Sergio León",
-    "edad": 35,
+    "cui": "1879264762003",
+    "nombre": "YARIS HISMARAY DOMINGUEZ JUAN",
+    "sexo": "Femenino",
+    "edad": 17,
     "consultas": [
       {
-        "fecha": "2025-07-15",
+        "fecha": "2025-02-10",
         "Tipo_consulta": "COEX",
-        "Diagnostico": "Seguimiento de dolor de espalda y recomendación de fisioterapia"
+        "Diagnostico": "Evaluación dermatológica"
+      }
+    ]
+  },
+  {
+    "cui": "1756276060101",
+    "nombre": "MARTA LIDIA GONZALEZ ROXIQUE DE REYES",
+    "sexo": "Femenino",
+    "edad": 52,
+    "consultas": [
+      {
+        "fecha": "2025-03-25",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control de tiroides"
+      }
+    ]
+  },
+  {
+    "cui": "2624160771201",
+    "nombre": "KARLA MARIANA GARCIA HERRERA",
+    "sexo": "Femenino",
+    "edad": 46,
+    "consultas": [
+      {
+        "fecha": "2024-11-20",
+        "Tipo_consulta": "EMERGENCIA",
+        "Diagnostico": "Ataque de asma"
+      },
+      {
+        "fecha": "2024-11-21",
+        "Tipo_consulta": "HOSPITALIZACION",
+        "Diagnostico": "Tratamiento por exacerbación de asma"
+      }
+    ]
+  },
+  {
+    "cui": "2455820961201",
+    "nombre": "TERESA CARMELITA MIRANDA AGUILAR",
+    "sexo": "Masculino",
+    "edad": 79,
+    "consultas": [
+      {
+        "fecha": "2025-04-10",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control de próstata"
+      }
+    ]
+  },
+  {
+    "cui": "2928123101201",
+    "nombre": "ADRIANA DEL ROCIO GIRON CIFUENTES",
+    "sexo": "Femenino",
+    "edad": 49,
+    "consultas": [
+      {
+        "fecha": "2025-01-25",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Consulta oftalmológica"
+      }
+    ]
+  },
+  {
+    "cui": "1578933910101",
+    "nombre": "ANA ELIZABETH MERIDA COY DE BLANCO",
+    "sexo": "Femenino",
+    "edad": 63,
+    "consultas": [
+      {
+        "fecha": "2025-05-05",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control de diabetes"
+      }
+    ]
+  },
+  {
+    "cui": "1720723520101",
+    "nombre": "YODALI ARACELY PINTO LEONARDO",
+    "sexo": "Femenino",
+    "edad": 33,
+    "consultas": [
+      {
+        "fecha": "2024-12-20",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Consulta por embarazo"
+      },
+      {
+        "fecha": "2025-01-15",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control prenatal"
+      }
+    ]
+  },
+  {
+    "cui": null,
+    "nombre": "GERARDO MAURICIO DE LA CRUZ",
+    "sexo": "Masculino",
+    "edad": 58,
+    "consultas": [
+      {
+        "fecha": "2025-03-10",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Revisión médica general"
+      }
+    ]
+  },
+  {
+    "cui": "1609643420101",
+    "nombre": "INGRID LISEHT MONROY QUEVEDO",
+    "sexo": "Femenino",
+    "edad": 41,
+    "consultas": [
+      {
+        "fecha": "2025-04-15",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Consulta odontológica"
+      }
+    ]
+  },
+  {
+    "cui": "2356430330101",
+    "nombre": "JERONIMO SANCHEZ OBANDO",
+    "sexo": "Masculino",
+    "edad": 72,
+    "consultas": [
+      {
+        "fecha": "2025-02-25",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control de glaucoma"
+      }
+    ]
+  },
+  {
+    "cui": null,
+    "nombre": "VILMA JUDITH SANTIZO CASTILLO",
+    "sexo": "Femenino",
+    "edad": 29,
+    "consultas": [
+      {
+        "fecha": "2025-05-08",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Consulta por cefalea"
       }
     ]
   }

@@ -1,6 +1,6 @@
 [
   {
-    "cui": "44556677880801",
+    "cui": "4455667788992",
     "nombre": "Ricardo Paz",
     "edad": 68,
     "consultas": [
@@ -17,7 +17,7 @@
     ]
   },
   {
-    "cui": "88990011220802",
+    "cui": "8899001122334",
     "nombre": "Andrea León",
     "edad": 12,
     "consultas": [
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "cui": "11223344550803",
+    "cui": "1122334455668",
     "nombre": "Daniel Flores",
     "edad": 41,
     "consultas": [
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "cui": "55667788990804",
+    "cui": "5566778899002",
     "nombre": "Valeria Méndez",
     "edad": 30,
     "consultas": [
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "cui": "77889900110805",
+    "cui": "7788990011224",
     "nombre": "Gabriel Ruiz",
     "edad": 75,
     "consultas": [
@@ -75,10 +75,9 @@
     ]
   },
   {
-    "cui": "22334455660806",
+    "cui": "2233445566772",
     "nombre": "Sergio León",
     "edad": 35,
-    "referencia": "Centro de Salud",
     "consultas": [
       {
         "fecha": "2025-07-10",

@@ -35,11 +35,41 @@
 
   <!-- Resultados -->
   <div *ngFor="let item of resultados" class="card-chat">
-    <div class="fuente">🧩 Fuente: {{ item.nodo | nodos }}</div>
-    <div class="paciente">👤 {{ item.paciente.nombre }} ({{ item.paciente.cui }})</div>
+    <div class="fuente">🧩 Nodo consultado: {{ item.nodo | nodos }}</div>
+    <div class="paciente">👤 {{ item.paciente.nombre }} </div>
+    <div class="paciente">DPI:({{ item.paciente.cui }})</div>
+    <div class="edad">Edad: {{ item.paciente.edad }}</div>
+    <div class="sexo" *ngIf="item.paciente.sexo">Sexo: {{ item.paciente.sexo }}</div>
     <div *ngFor="let consulta of item.consultas" class="consulta">
       🗓️ {{ consulta.fecha }} - {{ consulta.Tipo_consulta }}
       <div class="diagnostico">🩺 {{ consulta.Diagnostico }}</div>
-    </div>
+      <div *ngIf="consulta.referido == true" class="d-flex" >Viene Referido por: <p class="bg-primary">{{ consulta.referido_por }}</p> </div>
+      
   </div>
+  <button class="boton-solicitar" (click)="abrirTextbox(item)">Solicitar Estudio</button>
+
+      <!-- Mostrar si fue enviada -->
+      <!-- <div *ngIf="item.solicitudRealizada" class="solicitud-realizada">
+        ✅ Solicitud realizada
+      </div> -->
+
+      <!-- Mostrar textarea solo si es el activo -->
+      <div *ngIf="estaActivo(item)" class="textbox-container">
+        <textarea
+          class="mensaje-textbox"
+          placeholder="Escribe un mensaje..."
+          [(ngModel)]="item.mensaje"
+        ></textarea>
+        <button class="boton-enviar" (click)="enviarSolicitud(item)">Enviar</button>
+      </div>
+
+
+      <div *ngIf="item.solicitudRealizada && !item.notificacionPendiente" class="solicitud-realizada">
+        ✅ Solicitud enviada correctamente
+      </div>
+      <!-- Simulación de notificación -->
+      <!-- <div *ngIf="item.notificacionPendiente" class="notificacion-pendiente">
+        📬 Tienes una solicitud pendiente
+      </div> -->
+    </div>
 </div>

@@ -1,0 +1,89 @@
+[
+  {
+    "cui": "6543210987123",
+    "nombre": "Sofía Vargas",
+    "edad": 27,
+    "consultas": [
+      {
+        "fecha": "2024-06-10",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Infección de garganta"
+      }
+    ]
+  },
+  {
+    "cui": "3344556677889",
+    "nombre": "Luis Castro",
+    "edad": 62,
+    "consultas": [
+      {
+        "fecha": "2024-07-01",
+        "Tipo_consulta": "EMERGENCIA",
+        "Diagnostico": "Fractura de cadera"
+      },
+      {
+        "fecha": "2024-07-02",
+        "Tipo_consulta": "HOSPITALIZACION",
+        "Diagnostico": "Post-operatorio de cadera"
+      }
+    ]
+  },
+  {
+    "cui": "9900112233445",
+    "nombre": "Elena Ruiz",
+    "edad": 38,
+    "consultas": [
+      {
+        "fecha": "2024-05-20",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Control de asma"
+      },
+      {
+        "fecha": "2024-08-15",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Revisión de rutina"
+      }
+    ]
+  },
+  {
+    "cui": "7788990011223",
+    "nombre": "Javier Soto",
+    "edad": 51,
+    "consultas": [
+      {
+        "fecha": "2024-09-05",
+        "Tipo_consulta": "EMERGENCIA",
+        "Diagnostico": "Ataque de apendicitis"
+      },
+      {
+        "fecha": "2024-09-06",
+        "Tipo_consulta": "HOSPITALIZACION",
+        "Diagnostico": "Recuperación post-apendicectomía"
+      }
+    ]
+  },
+  {
+    "cui": "2233445566771",
+    "nombre": "Isabel Vargas",
+    "edad": 23,
+    "consultas": [
+      {
+        "fecha": "2024-07-28",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Consulta por resfriado común"
+      }
+    ]
+  },
+  {
+    "cui": "2233445566772",
+    "nombre": "Sergio León",
+    "edad": 35,
+    "consultas": [
+      {
+        "fecha": "2025-07-15",
+        "Tipo_consulta": "COEX",
+        "Diagnostico": "Seguimiento de dolor de espalda y recomendación de fisioterapia"
+      }
+    ]
+  }
+]

@@ -5,6 +5,11 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
+.bg-primary {
+  
+  color: rgb(239, 149, 46);
+}
+
 .entrada {
   display: block;
   width: 100%;
@@ -25,6 +30,24 @@
   font-weight: bold;
   cursor: pointer;
   margin-bottom: 1rem;
+}
+
+.boton-solicitar {
+  width: 20%;
+  padding: 0.15rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 0.3rem;
+  font-size: x-small;
+}
+
+.boton-solicitar:active {
+  transform: scale(0.9);
+  background-color: #08294e;
 }
 
 .loader {
@@ -165,4 +188,64 @@
   50% {
     opacity: 1;
   }
+}
+
+.boton-solicitar {
+  background-color: #08294e;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.boton-solicitar.pendiente {
+  background-color: #e5a00d;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0 0 10px #e5a00d;
+}
+
+.textbox-container {
+  margin-top: 10px;
+}
+
+.mensaje-textbox {
+  width: 100%;
+  min-height: 60px;
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.boton-enviar {
+  background-color: #0a3d75;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.solicitud-realizada {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}
+
+.notificacion-pendiente {
+  margin-top: 8px;
+  background-color: #fffae6;
+  border-left: 4px solid #ffc107;
+  padding: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
