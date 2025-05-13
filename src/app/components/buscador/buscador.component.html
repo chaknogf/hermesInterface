@@ -1,3 +1,7 @@
+<div class="notificacion-fija" *ngIf="notificacion == true">
+  <app-notificacion></app-notificacion>
+</div>
+
 <div class="contenedor">
   <form (ngSubmit)="buscar()" #buscadorForm="ngForm">
     <input
@@ -63,7 +67,9 @@
         <button class="boton-enviar" (click)="enviarSolicitud(item)">Enviar</button>
       </div>
 
-
+      <div *ngIf="item.notificacionPendiente == true">
+        <app-enviado-loader ></app-enviado-loader>
+      </div>
       <div *ngIf="item.solicitudRealizada && !item.notificacionPendiente" class="solicitud-realizada">
         ✅ Solicitud enviada correctamente
       </div>

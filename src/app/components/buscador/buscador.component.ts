@@ -3,13 +3,16 @@ import { BuscadorService } from '../../service/buscador.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { NodosPipe } from '../../pipes/nodos.pipe';
+import { NotificacionComponent } from '../notificacion/notificacion.component';
+import { EnviadoLoaderComponent } from "../enviado-loader/enviado-loader.component";
+
 
 @Component({
   selector: 'app-buscador',
   templateUrl: './buscador.component.html',
   styleUrls: ['./buscador.component.css'],
   standalone: true,
-  imports: [CommonModule, FormsModule, NodosPipe]
+  imports: [CommonModule, FormsModule, NodosPipe, NotificacionComponent, EnviadoLoaderComponent]
 })
 export class BuscadorComponent {
   nombre = '';
@@ -17,6 +20,7 @@ export class BuscadorComponent {
   cargando = false;
   resultados: any[] = [];
   itemActivo: any = null;
+  notificacion = false;
 
   constructor(private buscadorService: BuscadorService) { }
 
@@ -47,6 +51,8 @@ export class BuscadorComponent {
     this.itemActivo = item === this.itemActivo ? null : item;
   }
 
+
+
   enviarSolicitud(item: any): void {
     item.solicitudRealizada = true;
     item.notificacionPendiente = true;
@@ -55,7 +61,9 @@ export class BuscadorComponent {
 
     setTimeout(() => {
       item.notificacionPendiente = false;
-    }, 5000);
+      this.notificacion = true;
+    }, 4000);
+
   }
 
   estaActivo(item: any): boolean {

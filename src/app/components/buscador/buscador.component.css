@@ -249,3 +249,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.notificacion-fija {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 9999;
+}
